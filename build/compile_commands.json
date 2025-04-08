@@ -1,0 +1,42 @@
+[
+{
+  "directory": "/root/cuda-example/build/reduce",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler  -isystem=/usr/local/cuda/include -g --generate-code=arch=compute_52,code=[compute_52,sm_52] -G -x cu -c /root/cuda-example/reduce/__reduce_v0.cu -o CMakeFiles/__reduce_v0.dir/__reduce_v0.cu.o",
+  "file": "/root/cuda-example/reduce/__reduce_v0.cu"
+},
+{
+  "directory": "/root/cuda-example/build/reduce",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler  -isystem=/usr/local/cuda/include -g --generate-code=arch=compute_52,code=[compute_52,sm_52] -G -x cu -c /root/cuda-example/reduce/__reduce_v1_warp_divergence.cu -o CMakeFiles/__reduce_v1_warp_divergence.dir/__reduce_v1_warp_divergence.cu.o",
+  "file": "/root/cuda-example/reduce/__reduce_v1_warp_divergence.cu"
+},
+{
+  "directory": "/root/cuda-example/build/reduce",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler  -isystem=/usr/local/cuda/include -g --generate-code=arch=compute_52,code=[compute_52,sm_52] -G -x cu -c /root/cuda-example/reduce/__reduce_v2_bank_conflict.cu -o CMakeFiles/__reduce_v2_bank_conflict.dir/__reduce_v2_bank_conflict.cu.o",
+  "file": "/root/cuda-example/reduce/__reduce_v2_bank_conflict.cu"
+},
+{
+  "directory": "/root/cuda-example/build/reduce",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler  -isystem=/usr/local/cuda/include -g --generate-code=arch=compute_52,code=[compute_52,sm_52] -G -x cu -c /root/cuda-example/reduce/__reduce_v3_idle_a.cu -o CMakeFiles/__reduce_v3_idle_a.dir/__reduce_v3_idle_a.cu.o",
+  "file": "/root/cuda-example/reduce/__reduce_v3_idle_a.cu"
+},
+{
+  "directory": "/root/cuda-example/build/reduce",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler  -isystem=/usr/local/cuda/include -g --generate-code=arch=compute_52,code=[compute_52,sm_52] -G -x cu -c /root/cuda-example/reduce/__reduce_v3_idle_b.cu -o CMakeFiles/__reduce_v3_idle_b.dir/__reduce_v3_idle_b.cu.o",
+  "file": "/root/cuda-example/reduce/__reduce_v3_idle_b.cu"
+},
+{
+  "directory": "/root/cuda-example/build/reduce",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler  -isystem=/usr/local/cuda/include -g --generate-code=arch=compute_52,code=[compute_52,sm_52] -G -x cu -c /root/cuda-example/reduce/__reduce_v4_unroll_last_warp.cu -o CMakeFiles/__reduce_v4_unroll_last_warp.dir/__reduce_v4_unroll_last_warp.cu.o",
+  "file": "/root/cuda-example/reduce/__reduce_v4_unroll_last_warp.cu"
+},
+{
+  "directory": "/root/cuda-example/build/reduce",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler  -isystem=/usr/local/cuda/include -g --generate-code=arch=compute_52,code=[compute_52,sm_52] -G -x cu -c /root/cuda-example/reduce/__reduce_v5_block_num.cu -o CMakeFiles/__reduce_v5_block_num.dir/__reduce_v5_block_num.cu.o",
+  "file": "/root/cuda-example/reduce/__reduce_v5_block_num.cu"
+},
+{
+  "directory": "/root/cuda-example/build/reduce",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler  -isystem=/usr/local/cuda/include -g --generate-code=arch=compute_52,code=[compute_52,sm_52] -G -x cu -c /root/cuda-example/reduce/__reduce_v6_shuffle.cu -o CMakeFiles/__reduce_v6_shuffle.dir/__reduce_v6_shuffle.cu.o",
+  "file": "/root/cuda-example/reduce/__reduce_v6_shuffle.cu"
+}
+]

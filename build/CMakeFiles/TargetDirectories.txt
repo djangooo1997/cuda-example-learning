@@ -1,0 +1,12 @@
+/root/cuda-example/build/CMakeFiles/edit_cache.dir
+/root/cuda-example/build/CMakeFiles/rebuild_cache.dir
+/root/cuda-example/build/reduce/CMakeFiles/__reduce_v0.dir
+/root/cuda-example/build/reduce/CMakeFiles/__reduce_v1_warp_divergence.dir
+/root/cuda-example/build/reduce/CMakeFiles/__reduce_v2_bank_conflict.dir
+/root/cuda-example/build/reduce/CMakeFiles/__reduce_v3_idle_a.dir
+/root/cuda-example/build/reduce/CMakeFiles/__reduce_v3_idle_b.dir
+/root/cuda-example/build/reduce/CMakeFiles/__reduce_v4_unroll_last_warp.dir
+/root/cuda-example/build/reduce/CMakeFiles/__reduce_v5_block_num.dir
+/root/cuda-example/build/reduce/CMakeFiles/__reduce_v6_shuffle.dir
+/root/cuda-example/build/reduce/CMakeFiles/edit_cache.dir
+/root/cuda-example/build/reduce/CMakeFiles/rebuild_cache.dir

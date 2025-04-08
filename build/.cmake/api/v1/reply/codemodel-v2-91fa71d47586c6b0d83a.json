@@ -1,0 +1,139 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21.0"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "reduce",
+					"jsonFile" : "directory-reduce-Debug-8cf85c37ff150e700a51.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "reduce",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "cuda-example",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "__reduce_v0::@bc9193bc7089a07bb2a9",
+					"jsonFile" : "target-__reduce_v0-Debug-9f5103250b519fca2fdc.json",
+					"name" : "__reduce_v0",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "__reduce_v1_warp_divergence::@bc9193bc7089a07bb2a9",
+					"jsonFile" : "target-__reduce_v1_warp_divergence-Debug-b9e042718e467cd40c02.json",
+					"name" : "__reduce_v1_warp_divergence",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "__reduce_v2_bank_conflict::@bc9193bc7089a07bb2a9",
+					"jsonFile" : "target-__reduce_v2_bank_conflict-Debug-c95d72884aa43f36074e.json",
+					"name" : "__reduce_v2_bank_conflict",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "__reduce_v3_idle_a::@bc9193bc7089a07bb2a9",
+					"jsonFile" : "target-__reduce_v3_idle_a-Debug-cf08a959ee69879cafd5.json",
+					"name" : "__reduce_v3_idle_a",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "__reduce_v3_idle_b::@bc9193bc7089a07bb2a9",
+					"jsonFile" : "target-__reduce_v3_idle_b-Debug-44d9e83a03af332d8c1c.json",
+					"name" : "__reduce_v3_idle_b",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "__reduce_v4_unroll_last_warp::@bc9193bc7089a07bb2a9",
+					"jsonFile" : "target-__reduce_v4_unroll_last_warp-Debug-1dcf20af13dc440bde10.json",
+					"name" : "__reduce_v4_unroll_last_warp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "__reduce_v5_block_num::@bc9193bc7089a07bb2a9",
+					"jsonFile" : "target-__reduce_v5_block_num-Debug-959ea2915ded88b17968.json",
+					"name" : "__reduce_v5_block_num",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "__reduce_v6_shuffle::@bc9193bc7089a07bb2a9",
+					"jsonFile" : "target-__reduce_v6_shuffle-Debug-b15a9f0369079b10897b.json",
+					"name" : "__reduce_v6_shuffle",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/cuda-example/build",
+		"source" : "/root/cuda-example"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
